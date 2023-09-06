@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+// Edit made outside the monorepo source directory
 app.get('/', (req, res) => {
   res.send('Second App');
 });
