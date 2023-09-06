@@ -9,7 +9,7 @@ var node_version;
 exec("node -v", function (error, stdout, stderr) {
     node_version = stdout.trim();
 });
-
+// Edit made inside the monorepo source directory
 app.get('/', function (request, response) {
     var number = dependency.getNumber();
     var output = {'app_name': "Hello Express", 'node_version': node_version, 'env_vars': process.env, 'Number from library dependency': number};
