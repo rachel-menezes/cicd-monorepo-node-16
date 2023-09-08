@@ -1,3 +1,4 @@
+// Commit made inside the monorepo source directory should not trigger CI/CD
 const express = require('express');
 const app = express();
 const process = require('process')
